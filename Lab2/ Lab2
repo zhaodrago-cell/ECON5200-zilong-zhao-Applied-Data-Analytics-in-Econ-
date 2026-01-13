@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPWcrxq3UD9dJopjS4zRSl1",
+      "authorship_tag": "ABX9TyOOpHKD06IG+qeVm8rQwicO",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -75,7 +75,7 @@
     {
       "cell_type": "code",
       "source": [
-        "fred = Fred(api_key='e16fdf10261019f05bf611e90034dc0e')"
+        "fred = Fred(api_key='*')"
       ],
       "metadata": {
         "id": "iTMQ9xyH9AkL"
