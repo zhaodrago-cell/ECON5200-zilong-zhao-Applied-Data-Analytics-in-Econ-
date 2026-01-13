@@ -1,0 +1,131 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN++vyXQ4vkO2PndTF9ddHM",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/zhaodrago-cell/ECON5200-zilong-zhao-Applied-Data-Analytics-in-Econ-/blob/main/Lab1%20Hello%20Panda\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 9,
+      "metadata": {
+        "id": "Hya6LkPS0x9w"
+      },
+      "outputs": [],
+      "source": [
+        "# Step 1\n",
+        "import pandas as pd\n",
+        "import numpy as np\n",
+        "import matplotlib.pyplot as plt\n",
+        "import seaborn as sns"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Manual Dictionary Construction\n",
+        "# Data Source: Table 1.4 (Jan 2015)\n",
+        "# INSTRUCTION: Complete the lists inside the brackets below.\n",
+        "# Ensure strings have quotes '' and numbers do not.\n",
+        "data = {\n",
+        "    'Country': [\n",
+        "        'United States', 'Argentina', 'Australia', 'Brazil', 'Britain', 'China',\n",
+        "        'Egypt', 'Euro area', 'Hong Kong', 'Indonesia', 'Japan', 'Mexico',\n",
+        "        'Norway', 'Pakistan', 'Philippines', 'Russia', 'Saudi Arabia',\n",
+        "        'South Africa', 'South Korea'\n",
+        "    ],\n",
+        "    'iso_a3': [\n",
+        "        'USA', 'ARG', 'AUS', 'BRA', 'GBR', 'CHN',\n",
+        "        'EGY', 'EUR', 'HKG', 'IDN', 'JPN', 'MEX',\n",
+        "        'NOR', 'PAK', 'PHL', 'RUS', 'SAU',\n",
+        "        'ZAF', 'KOR'\n",
+        "    ],\n",
+        "    'local_price': [\n",
+        "        4.79, 28.00, 5.30, 13.50, 2.89, 17.20,\n",
+        "        16.93, 3.68, 18.80, 27939, 370, 49.00,\n",
+        "        48.00, 300, 163, 89.00, 11.00,\n",
+        "        25.50, 4100\n",
+        "    ]\n",
+        "}\n",
+        "# Convert to DataFrame\n",
+        "df = pd.DataFrame(data)\n",
+        "print(df)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XrfDu6LM1WDa",
+        "outputId": "10573985-a72c-4f40-fd89-d45cabe2fd23"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "          Country iso_a3  local_price\n",
+            "0   United States    USA         4.79\n",
+            "1       Argentina    ARG        28.00\n",
+            "2       Australia    AUS         5.30\n",
+            "3          Brazil    BRA        13.50\n",
+            "4         Britain    GBR         2.89\n",
+            "5           China    CHN        17.20\n",
+            "6           Egypt    EGY        16.93\n",
+            "7       Euro area    EUR         3.68\n",
+            "8       Hong Kong    HKG        18.80\n",
+            "9       Indonesia    IDN     27939.00\n",
+            "10          Japan    JPN       370.00\n",
+            "11         Mexico    MEX        49.00\n",
+            "12         Norway    NOR        48.00\n",
+            "13       Pakistan    PAK       300.00\n",
+            "14    Philippines    PHL       163.00\n",
+            "15         Russia    RUS        89.00\n",
+            "16   Saudi Arabia    SAU        11.00\n",
+            "17   South Africa    ZAF        25.50\n",
+            "18    South Korea    KOR      4100.00\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "Xys1DE5h5UkV"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "fGXFdf6M5Uxw"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
